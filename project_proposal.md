@@ -32,7 +32,7 @@ If modeling, what will you predict as your target?
 How do you intend to meet the tools requirement of the project?
 - Twint for acquiring Tweets
 - VADER for sentiment tagging
-- NLTK, scikit learn for topic ßßmodelling
+- NLTK, scikit learn for topic modelling
 - Seaborn and matplotlib for vizualisations
 
 ## MVP Goal:
