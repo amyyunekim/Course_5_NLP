@@ -37,5 +37,5 @@ How do you intend to meet the tools requirement of the project?
 
 ## MVP Goal:
 
-Have data gathered, cleaned and transformed into a document-term matrix
+Have data gathered, cleaned and transformed into a document-term matrix.
 Start testing topic modelling methodology
