@@ -8,7 +8,7 @@ What is the question behind your analysis or model and what practical impact wil
 
 Who is your client and how will that client benefits from exploring this question or building this model/system?
 
-- Film distributors will be able to assess which movies would be popular and successful to run
+- Film distributors will be able to assess sentiment and conversation around new films in real time and assist in picking which movies to release.
 
 ## Data Description:
 
@@ -38,3 +38,4 @@ How do you intend to meet the tools requirement of the project?
 ## MVP Goal:
 
 Have data gathered, cleaned and transformed into a document-term matrix
+Start testing topic modelling methodology
