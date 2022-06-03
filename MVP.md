@@ -6,7 +6,7 @@
 
 ### Process:
 
-- Imported Tweets with Cannes hashtags from May 17 to May 28 2022 into python using the Twint library.
+- Imported ~29K Tweets with Cannes hashtags from May 17 to May 28 2022 into python using the Twint library.
 - Created a clean tweet function involving regex and removing stop words.
 - Stemmed words using SnowballStemmer however it didn't improve results so original cleaned tweets were used.
 - Tried both Count Vectorizer and TFIDF to create document-term matrices. Count Vectorizer did not work well as celebrity fans were flooding certain terms so TFIDF was selected.
@@ -32,5 +32,6 @@ triangle, sadness, palme, dor, ruben, amp, close, stlund, won, prize
 
 ### Further work:
 - Continue to tune the number of topics to include smaller films, which is proving challenging.
-- Assign sentiment to each movie through VADER and further deconstructing tweets by extracting adjectives through POS tagging.
+- Look at topics within topics.
+- Assign sentiment to each movie by further deconstructing tweets by extracting adjectives through SpaCy POS tagging or VADER.
 - Compare results to actual Cannes awards won by movies.
