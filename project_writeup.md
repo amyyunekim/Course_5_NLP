@@ -40,14 +40,14 @@ SpaCy was attempted next to identify most commonly appearing adjectives as a dif
 Top 5 tweeted movies and subtopics: 
 1. Joyland (standing ovation, Jury prize, Pakistan, debut, contratulations)
 2. Crimes of the Future (Kristen Stewart, photocall, screening, Tom Sturridge, David Cronenberg)
-3. Armageddon Time (Anne Hathaway, photograph, Deepika Padukone,celebrities, Jeremy Strong)
+3. Armageddon Time (Anne Hathaway, photograph, Deepika Padukone, celebrities, Jeremy Strong)
 4. Top Gun Maverick (review, fashion, youth, premiere,wardrobe)
 5. Triangle of Sadness (Palme d'Or, Marion Cotillard, Riley Keough, Ruben Ostlund, screening)
 
-VADER sentiment analysis: 
-<img src="./images/vader_results.png" width="700">
+VADER sentiment analysis: <br>
+<img src="./images/vader_results.png" width="600">
 
-Example wordcloud of Joyland's adjectives:
+Example wordcloud of Joyland's adjectives:<br>
 <img src="./images/wordcloud.png" width="700">
 
 ### Tools:
