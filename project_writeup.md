@@ -32,22 +32,24 @@ LSA, NMF and LDA were trialled for topic modelling. Ultimately the NMF model wit
 Subtopics were modelled using NMF on topics which were movies only to analyze more granular topics of discussion on particular movies. 
 
 <i>Sentiment analysis</i><br>
-VADER was used to compute % positive and % negative tweets for each movie. Tweets had to be stripped of movie titles which were inherently emotive as they were skewing the results e.g. "Triangle of Sadness", "Decision to Leave". When inspecting individual scoring of tweets, it was apparent that VADER did not perform well on colloquialisms and understanding the nuances of tweets. 
+VADER was used to compute % positive and % negative tweets for each movie. Tweets had to be stripped of movie titles which were inherently emotive as they were skewing the results e.g. "Triangle of Sadness", "Decision to Leave". When inspecting individual scoring of tweets, it was apparent that VADER did not perform well on colloquialisms and understanding the nuances of tweets. Nevertheless the movies with the highest % positive tweets were award winners which aligned well (pictured below).<br>
 SpaCy was attempted next to identify most commonly appearing adjectives as a different means to gauge sentiment. A wordcloud was used to visualize these adjectives and interpret sentiment. 
 
 ### Results:
 
-Top 5 tweeted movies and subtopics: 
+<i>Top 5 tweeted movies and subtopics: </i>
 1. Joyland (standing ovation, Jury prize, Pakistan, debut, contratulations)
 2. Crimes of the Future (Kristen Stewart, photocall, screening, Tom Sturridge, David Cronenberg)
 3. Armageddon Time (Anne Hathaway, photograph, Deepika Padukone, celebrities, Jeremy Strong)
 4. Top Gun Maverick (review, fashion, youth, premiere,wardrobe)
 5. Triangle of Sadness (Palme d'Or, Marion Cotillard, Riley Keough, Ruben Ostlund, screening)
 
-VADER sentiment analysis: <br>
+<i>VADER sentiment analysis: </i><br>
+The two most positively tweeted movies Joyland and Triangle of Sadness won awards the Un Certain Regard Jury Prize and Palme D'or respectively.<br>
+
 <img src="./images/vader_results.png" width="600">
 
-Example wordcloud of Joyland's adjectives:<br>
+<i>Example wordcloud of Joyland's adjectives:</i><br>
 <img src="./images/wordcloud.png" width="700">
 
 ### Tools:
